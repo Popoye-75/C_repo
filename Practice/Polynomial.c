@@ -36,6 +36,7 @@ struct Node *insert(struct Node *head, int coef, int exp)
 
     return head;
 }
+
 void printList(struct Node *head)
 {
     if (head == NULL)
